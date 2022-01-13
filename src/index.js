@@ -4,7 +4,7 @@ function changeVowels() {
   const usedDiv = document.querySelector(".result");
   const createP = document.createElement("p");
   usedDiv.insertAdjacentElement("beforeend", createP);
-  createP.textContent = result;
+  createP.textContent = `〰 ${result}`;
 }
 
 const sendForm = document.querySelector(".btn");
