@@ -1,3 +1,7 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 form {
   border: 2px solid black;
   border-radius: 8px;
@@ -14,17 +18,34 @@ form {
 }
 
 input {
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 8px;
   padding: 0.2rem 0.5rem;
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p {
   font-style: italic;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
+}
+
+.btn {
+  padding: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  background: white;
+}
+
+@media (max-width: 500px) {
+  form {
+    width: 300px;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
 }
