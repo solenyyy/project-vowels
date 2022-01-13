@@ -43,11 +43,12 @@ p {
 
 @media (max-width: 500px) {
   form {
-    width: 300px;
+    width: 330px;
   }
 
   .btn {
     margin-top: 10px;
     color: black;
+    padding: 7px;
   }
 }
